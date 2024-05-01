@@ -3,6 +3,6 @@ var router = express.Router();
 
 
 router.use('/reports', require('./reports'));
-router.use('/admin', require('./adminz'));
+router.use('/admin', require('./admin'));
 
 module.exports = router;
